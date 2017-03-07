@@ -1,6 +1,7 @@
 import scipy.misc as sm
 import numpy as np
 from PIL import Image
+#import time
 from os import path
 
 print('==================')
@@ -125,3 +126,6 @@ kvinna = path.join(dir, 'kvinna.jpg')
 # data is the grayscale
 image = loadImage(kvinna)
 data = trim(imageToArray(image))
+
+#time(average(data))
+#time(compress(data))
